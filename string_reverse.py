@@ -31,7 +31,7 @@ def reversing_4(my_string):
     else:
         return reversing_4(my_string[1:])+my_string[0]
 
-my_string=input('Please input any string you wich.\n')
+my_string=input('Please input any string you wish.\n')
 
 # all functions gives the same result
 reversing_1(my_string)
