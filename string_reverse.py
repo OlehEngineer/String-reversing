@@ -26,6 +26,7 @@ def reversing_3(my_string):
 
 my_string=input('Please input any string you wich.\n')
 
+# all functions gives the same result
 reversing_1(my_string)
 reversing_2(my_string)
 reversing_3(my_string)
