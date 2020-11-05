@@ -24,9 +24,17 @@ def reversing_3(my_string):
         new_string+=my_string[i-1]
     print(new_string)
 
+# variant #4 using recurtion for string reversing
+def reversing_4(my_string):
+    if len(my_string)==0:
+        return my_string
+    else:
+        return reversing_4(my_string[1:])+my_string[0]
+
 my_string=input('Please input any string you wich.\n')
 
 # all functions gives the same result
 reversing_1(my_string)
 reversing_2(my_string)
 reversing_3(my_string)
+print(reversing_4(my_string))
